@@ -2,7 +2,7 @@ import React from "react";
 
 export const Cards = ({ title, descriptions, img }) => {
     return(
-        <div className="p-2 justify-content-center text-center h-100">
+        <div className="p-2 pb-4 justify-content-center text-center">
             <div className="card">
                 <img className="card-img-top" src={img} alt="Card image cap"/>
                 <div className="card-body">
